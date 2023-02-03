@@ -1,0 +1,9 @@
+67953 : Sanal Post Bulunamadı
+97624 : Sanal Post Aktif Değil
+97618 : Kart Bulunamadı
+34976 : Kart Son Kullanma Yılı Geçmiş
+61675 : Kartın Son Kullanma Ayı Geçmiş
+31864 : CVC Kodu Yanlış
+94628 : Kartın Hesabı Aktif Değil
+96483 : Kartın Yeterli Bakiyesi Yok
+11111 : Ödeme Başarılı 
