@@ -1,4 +1,8 @@
-CREATE DATABASE CoffeBank_DB
+USE master
+GO
+DROP DATABASE AnInterestingBank_DB
+GO
+CREATE DATABASE AnInterestingBank_DB
 GO
 USE AnInterestingBank_DB
 Go
@@ -45,4 +49,13 @@ CREATE TABLE SanalPosMusteriler
 	Sifre nvarchar(10),
 	IsActive bit,
 	CONSTRAINT pk_SanalPosMusteri PRIMARY KEY(ID)
+)
+GO
+CREATE TABLE Logs
+(
+	ID int IDENTITY(1,1),
+	SaticiKodu nvarchar(12),
+	KartNo nvarchar(16),
+	Bakiye decimal(18,2),
+	Tarih datetime,
 )

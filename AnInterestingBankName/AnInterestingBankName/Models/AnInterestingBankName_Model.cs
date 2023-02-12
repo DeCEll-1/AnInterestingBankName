@@ -16,6 +16,7 @@ namespace AnInterestingBankName.Models
         public virtual DbSet<Kartlar> Kartlar { get; set; }
         public virtual DbSet<Musteriler> Musteriler { get; set; }
         public virtual DbSet<SanalPosMusteriler> SanalPosMusteriler { get; set; }
+        public virtual DbSet<Logs> Logs{ get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

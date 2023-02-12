@@ -78,6 +78,13 @@ namespace AnInterestingBankName.Controllers
             }
             Hesaplar h = db.Hesaplar.Find(k.Hesap_ID);
             h.Bakiye -= pm.Bakiye;
+
+            Logs log = new Logs();
+
+            log.KartNo = k.KartNo; log.Bakiye = pm.Bakiye; log.SaticiKodu = pm.SaticiKodu; log.Tarih = DateTime.Now;
+
+            db.Logs.Add(log);
+
             db.SaveChanges();
             return "11111";
         }

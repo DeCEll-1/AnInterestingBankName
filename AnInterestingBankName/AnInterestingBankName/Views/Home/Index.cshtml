@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<AnInterestingBankName.Models.Logs>
 @{
     Layout = null;
 }
@@ -12,7 +12,30 @@
 </head>
 <body>
     <div> 
-        a
+        <table>
+            <tr>
+                <th>
+
+                </th>
+            </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.SaticiKodu
+                </td>
+                <td>
+                    @item.KartNo
+                </td>
+                <td>
+                    @item.Bakiye
+                </td>
+                <td>
+                    @item.Tarih
+                </td>
+            </tr>
+        }
+        </table>
     </div>
 </body>
 </html>

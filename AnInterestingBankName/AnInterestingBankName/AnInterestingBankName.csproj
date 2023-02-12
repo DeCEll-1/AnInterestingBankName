@@ -123,6 +123,7 @@
     <Compile Include="Models\AnInterestingBankName_Model.cs" />
     <Compile Include="Models\Hesaplar.cs" />
     <Compile Include="Models\Kartlar.cs" />
+    <Compile Include="Models\Logs.cs" />
     <Compile Include="Models\Musteriler.cs" />
     <Compile Include="Models\SanalPosMusteriler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
